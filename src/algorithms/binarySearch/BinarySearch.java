@@ -6,11 +6,8 @@ package algorithms.binarySearch;
 public class BinarySearch {
     /**
      * Function that will search for value in sorted array using Binary Search technique.
-     * Order: O(Log(N)).. where N is the length of the array.
      *
-     * Binary Search Technique is dividing the sorted array from the middle,
-     *      1- If sortedArray[middle] < value .. Search in the Second Half.
-     *      2- If sortedArray[middle] > value .. Search in the First Half.
+     * Binary Search technique details is in the file "BinarySearch.txt"
      *
      * @param sortedArray
      * @param value
