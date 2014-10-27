@@ -1,8 +1,8 @@
- Binary Search Technique:
-==========================
+ Binary Search:
+================
 Order: O(Log(N)).. where N is the length of the array / Search space length.
 
-Binary Search Technique is dividing the sorted array from the middle.
+Binary Search Algorithm is dividing the sorted array from the middle.
     1- If sortedArray[middle] < value .. Search in the Second Half.
     2- If sortedArray[middle] > value .. Search in the First Half.
 

@@ -5,9 +5,9 @@ package algorithms.binarySearch;
  */
 public class BinarySearch {
     /**
-     * Function that will search for value in sorted array using Binary Search technique.
-     *
-     * Binary Search technique details is in the file "BinarySearch.txt"
+     * Function that will search for value in sorted array using Binary Search algorithm.
+     * <p/>
+     * Binary Search algorithm details is in the file "BinarySearch"
      *
      * @param sortedArray
      * @param value
@@ -32,5 +32,13 @@ public class BinarySearch {
         }
 
         return -1; // Value is not found in the array.
+    }
+
+    public void test() {
+        int sortedArray[] = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        System.out.println(find(sortedArray, 2));
+        System.out.println(find(sortedArray, 5));
+        System.out.println(find(sortedArray, 8));
     }
 }
