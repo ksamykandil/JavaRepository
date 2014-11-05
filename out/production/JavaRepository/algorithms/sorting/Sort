@@ -1,0 +1,26 @@
+ Bubble Sort:
+=============
+- Order: O(N^2).
+
+- Loop over the N items of the array from left to right (N-1 --> 1).
+- For each index (i) loop from the left to (i) (0 --> i-1):
+    - Check if item is bigger than the next item, swap them.
+    - Repeat it for each i & the array will be sorted.
+
+ Insertion Sort:
+=================
+- Order: O(N^2).
+
+- Loop over the N items of the array starting from second element(1 --> N-1).
+- Take element of index (i) out & move to lower index:
+    - Shift all the elements in lower index up (arr[i] = arr[i-1]), until found smaller one or reach 0.
+- Repeat it for each i & the array will be sorted.
+
+ Selection Sort:
+=================
+- Order: O(N^2).
+- Selection sort is better than bubble sort in memory, as it needs (N) swaps not (N^2) as bubble sort.
+
+- It is based on looping over the array N times.
+- For each index (i), find the smallest item starting from (i --> N) then swap it with item of index (i).
+- So for each you made N-1 comparisons but only one swap & that's why it is better than BubbleSort.
