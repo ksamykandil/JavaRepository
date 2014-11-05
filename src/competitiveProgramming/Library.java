@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 
 /**
  * Created by ksamykandil on 10/27/14.
+ *
+ * This is my library I'm using in online programming contests.. "Just a beginner".
  */
 public class Library {
     static int[] di = {0, -1, 0, 1};
